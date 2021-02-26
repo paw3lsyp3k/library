@@ -28,7 +28,6 @@ body{
 form {
     width: 50%;
     margin: 2vmax auto;
-    background: burlywood;
 }
 
 input{
@@ -38,29 +37,17 @@ input{
     background: rgb(180,180,180);
 }
 
-#field4{
-    width: 87%;
-    height: 3rem;
-    margin-left: 6.5%;
+#field5 {
+    width: 44%;
+    margin-left: 4%;
 }
 
-#field2{
-    margin-top: 2vmax;
-    height: 3rem;
-    width: 55%;
-    margin-left: 6.5%;
-}
-
-#field3{
-    margin-top: 2vmax;
-    height: 3rem;
-    width: 25%;
-    margin-left: 6.5%;
-}
-
-#field1{
-    width: 40%;
-    height: 3rem;
-    margin-left: 6.5%;
-    margin-top: 2vmax;
+button{
+    padding: 1rem 2rem;
+    background: #27ae60;
+    margin-top: 4vmax;
+    float: right;
+    cursor: pointer;
+    border: none;
+    font-size: 1vmax;
 }
