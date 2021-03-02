@@ -23,7 +23,20 @@
     <div class="header">
         Spis książek
     </div>
-    <form action=""></form>
+    <?php 
+    $sql = "SELECT * FROM ksiazki;";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
 
+    if($resultCheck > 0){
+        while($row = mysqli_fetch_assoc($result)){
+            echo $row['ID'] . " ";
+            echo $row['tytul'] . " ";
+            echo $row['autor'] . " ";
+            echo $row['rok_wydania'] . "<br>";
+        }
+    }
+
+    ?>
 </body>
 </html>
