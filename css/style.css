@@ -88,6 +88,5 @@ body{
     align-items: center;
     justify-content: space-around;
     font-size: 1.2vmax;
+    cursor: pointer;
 }
-
-
